@@ -1,0 +1,18 @@
+{
+    // Enable Python linting
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    // Set Python interpreter path (update as needed)
+    "python.pythonPath": "venv/Scripts/python.exe",
+    // Format on save
+    "editor.formatOnSave": true,
+    // Set default formatter
+    "editor.defaultFormatter": "ms-python.python",
+    // Exclude virtual environment from search
+    "search.exclude": {
+        "**/venv": true
+    },
+    // Jupyter notebook settings
+    "jupyter.askForKernelRestart": false,
+    "jupyter.notebookFileRoot": "${workspaceFolder}"
+}

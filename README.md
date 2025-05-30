@@ -19,43 +19,39 @@ Nova Financial Solutions aims to enhance predictive analytics capabilities by an
 
 ├── .vscode/
 
+│   └── settings.json
+
 ├── .github/
 
-│ └── workflows/
+│   └── workflows
 
-│ └── unittests.yml
+│       ├── ci.yml
 
-├── notebooks/
-
-│ ├── eda.ipynb
-
-├── src/
-
-│ ├── data_loader.py
-
-│ ├── sentiment_analysis.py
-
-│ ├── correlation_analysis.py
-
-├── tests/
-
-│ ├── test_data_loader.py
-
-│ ├── test_sentiment_analysis.py
-
-│ ├── test_correlation_analysis.py
-
-├── scripts/
-
-│ ├── run_eda.py
-
-│ ├── run_analysis.py
+├── .gitignore
 
 ├── requirements.txt
 
 ├── README.md
 
-└── .gitignore
+├── src/
+
+│   ├── __init__.py
+
+├── notebooks/
+
+│   ├── __init__.py
+
+│   └── README.md
+
+├── tests/
+
+│   ├── __init__.py
+
+└── scripts/
+
+    ├── __init__.py
+
+    └── README.md
 
 ## 🧪 Key Features
 ✅ Exploratory Data Analysis (EDA)

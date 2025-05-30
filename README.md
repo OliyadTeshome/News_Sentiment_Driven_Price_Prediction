@@ -18,24 +18,43 @@ Nova Financial Solutions aims to enhance predictive analytics capabilities by an
 ## 📂 Repository Structure
 
 ├── .vscode/
+
 ├── .github/
+
 │ └── workflows/
+
 │ └── unittests.yml
+
 ├── notebooks/
+
 │ ├── eda.ipynb
+
 ├── src/
+
 │ ├── data_loader.py
+
 │ ├── sentiment_analysis.py
+
 │ ├── correlation_analysis.py
+
 ├── tests/
+
 │ ├── test_data_loader.py
+
 │ ├── test_sentiment_analysis.py
+
 │ ├── test_correlation_analysis.py
+
 ├── scripts/
+
 │ ├── run_eda.py
+
 │ ├── run_analysis.py
+
 ├── requirements.txt
+
 ├── README.md
+
 └── .gitignore
 
 ## 🧪 Key Features

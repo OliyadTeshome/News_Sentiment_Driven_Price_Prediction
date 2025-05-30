@@ -55,11 +55,11 @@ Nova Financial Solutions aims to enhance predictive analytics capabilities by an
 
 ## 🧪 Key Features
 ✅ Exploratory Data Analysis (EDA)
-Descriptive statistics (headline length, article frequency, publisher activity)
 
-Time series analysis of news publication frequency
-
-Text analysis: keyword extraction and topic modeling
+    - Descriptive statistics (headline length, article frequency, publisher activity)
+    - Time series analysis of news publication frequency
+    - Text analysis: keyword extraction and topic modeling
+    - Publisher analysis
 
 ## ✅ Sentiment Analysis
 Uses TextBlob and nltk for headline sentiment scoring

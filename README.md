@@ -61,38 +61,42 @@ Nova Financial Solutions aims to enhance predictive analytics capabilities by an
     - Text analysis: keyword extraction and topic modeling
     - Publisher analysis
 
-## ✅ Sentiment Analysis
-Uses TextBlob and nltk for headline sentiment scoring
-
 Calculates a sentiment score between -1 (negative) and 1 (positive)
 
 ## ✅ Quantitative Analysis
-Computes daily stock returns (% change)
 
-Aggregates daily sentiment scores
-
-Calculates Pearson correlation between sentiment and returns
+- Aggregates daily sentiment scores 
+- Computes daily stock returns (% change)
+- Calculates Pearson correlation between sentiment and returns
 
 ## ✅ Visualization
-Plots to visualize publication trends, sentiment distributions, and correlations
 
-Scatter plots showing the relationship between news sentiment and stock movement
+- **Publication Trends:** Line plots display the frequency of news articles published over time, highlighting peaks around trading hours and periods of increased market activity.
+- **Sentiment Distributions:** Histograms and boxplots show the distribution of sentiment scores, revealing the prevalence of neutral, positive, or negative news.
+- **Correlation Analysis:** Scatter plots and heatmaps visualize the relationship between aggregated sentiment scores and daily stock returns, indicating moderate positive correlations.
+- **Publisher Activity:** Bar charts compare the number of articles and sentiment contributions from different publishers.
+
+These visualizations provide actionable insights into how news sentiment and publication patterns relate to stock price movements.
 
 ## 📈 Results & Insights
-Average daily sentiment was moderately correlated with daily stock returns.
 
-Publishers with higher frequency had a stronger impact on sentiment trends.
+- **Moderate Correlation:** Daily aggregated news sentiment showed a moderate positive correlation with daily stock returns across multiple stocks.
+- **Publisher Influence:** High-frequency publishers contributed significantly to overall sentiment trends, with some publishers consistently skewing sentiment positive or negative.
+- **Timing Patterns:** News publication activity peaked during pre-market and trading hours, aligning with periods of increased market volatility.
+- **Sentiment Distribution:** Most headlines were neutral, but spikes in positive or negative sentiment often preceded notable price movements.
+- **Predictive Potential:** Combining sentiment scores with historical price data improved short-term return prediction accuracy in baseline models.
 
-Publication times revealed peaks around trading hours.
-
-These insights can be leveraged to build predictive models and design investment strategies based on news sentiment.
+These findings highlight the value of integrating news sentiment analysis into quantitative trading strategies.
 
 ## 🚀 Next Steps
-Enhance sentiment analysis with deep learning models like BERT.
 
-Integrate real-time news feeds and live stock data.
-
-Develop an interactive dashboard to visualize and monitor correlations dynamically.
+- Enhance sentiment analysis using advanced deep learning models such as BERT or RoBERTa.
+- Integrate real-time news feeds and live stock price data for up-to-date analysis.
+- Develop an interactive dashboard to dynamically visualize sentiment, stock movements, and correlations.
+- Expand analysis to include additional financial instruments and alternative data sources.
+- Improve model interpretability and backtest predictive strategies on historical data.
+- Collaborate with domain experts to refine features and validate findings.
+- Document and automate the workflow for reproducibility and scalability.
 
 
 ## 📧 Contact

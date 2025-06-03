@@ -49,9 +49,9 @@ Nova Financial Solutions aims to enhance predictive analytics capabilities by an
 
 └── scripts/
 
-    ├── __init__.py
+│   ├──  __init__.py
 
-    └── README.md
+│   └── README.md
 
 ## 🧪 Key Features
 ✅ Exploratory Data Analysis (EDA)

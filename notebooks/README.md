@@ -13,5 +13,7 @@ This directory contains a series of **Exploratory Data Analysis (EDA)** notebook
 | **text_analysis.ipynb** | Conducts text-based analysis using NLP techniques. Extracts common keywords/phrases and lays the groundwork for sentiment analysis and topic modeling. |
 | **time_series_analysis.ipynb** | Analyzes the temporal trends in news publication, exploring how the volume of news articles varies over time and across significant market events. |
 | **publisher_analysis.ipynb** | Examines publisher contributions, highlighting the most active publishers and their potential impact on market sentiment. |
+| **quantitative_analysis.ipynb** | Performs quantitative analysis on the dataset, including statistical tests and numerical summaries to uncover deeper patterns and relationships. |
+| **correlation_analysis.ipynb** | Focuses on advanced correlation techniques to further explore associations between news sentiment metrics and price movements. |
 
 ---
